@@ -1,0 +1,26 @@
+{
+  "name": "simple-page",
+  "version": "0.0.1",
+  "description": "CLI to display one web page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor Katsuba <katsuba.igor@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ansi-styles": "^3.2.0",
+    "electron": "^1.7.9",
+    "github-markdown-css": "^2.9.0",
+    "markdown": "^0.5.0",
+    "markdown-it": "^8.4.0",
+    "meow": "^3.7.0"
+  },
+  "bin": {
+    "simple-page": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Defenderbass/simple-page.git"
+  }
+}
