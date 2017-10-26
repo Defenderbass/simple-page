@@ -1,5 +1,8 @@
 # 📄 SimplePage
 ## 🌐 CLI to display one web page
+```
+npm install simple-page -g
+```
 Usage: `simple-page [<url>] [...<args>]` where `<url>` is URL of the page and `<args>` is list of parameters.
 ## ↔ width
 `--width, -w` width of the window in pixels; default: 800
