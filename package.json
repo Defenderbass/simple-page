@@ -1,6 +1,6 @@
 {
   "name": "simple-page",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI to display one web page",
   "main": "app.js",
   "scripts": {

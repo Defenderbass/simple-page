@@ -19,7 +19,21 @@ const template = [
     {
         label: 'View',
         submenu: [
-            {role: 'reload'},
+            {
+                role: 'reload',
+                label: 'Reload App',
+                accelerator: 'CommandOrControl+Shift+R'
+            },
+            {
+                label: 'Reload Page',
+                accelerator: 'CommandOrControl+R',
+                click() {
+                    const webview = document.querySelector('webview');
+                    if (webview) {
+                        webview.reload();
+                    }
+                }
+            },
             {role: 'forcereload'},
             {role: 'toggledevtools'},
             {
