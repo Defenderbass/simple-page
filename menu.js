@@ -34,7 +34,6 @@ const template = [
                     }
                 }
             },
-            {role: 'forcereload'},
             {role: 'toggledevtools'},
             {
                 label: 'Toggle Webview Dev Tools',
